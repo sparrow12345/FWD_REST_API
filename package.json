@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && json-server --watch src/data/todos.json --port 3001",
+    "start": "next start"
+  },
   "dependencies": {
     "json-server": "^0.17.4"
   }
